@@ -1,0 +1,19 @@
+{
+  "name": "prompt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon promptSync.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "circular-json": "^0.5.9",
+    "prompt-sync": "^4.2.0"
+  }
+}
