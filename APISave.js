@@ -1,10 +1,9 @@
-import ps from "prompt-sync";
 import fs from "fs";
 import axios from "axios";
 import CircularJSON from "circular-json";
 
-class APISave {
-  static save_request(url, method, fileName) {
+export class APISave {
+  static request_save(url, method, fileName) {
     console.log(`Making a ${method} request to ${url} ...`);
     try {
       axios({
@@ -12,6 +11,8 @@ class APISave {
         url: url,
       })
         .then((response) => {
+          // format the JSON file with prettier formatter or any other of your choice
+          // some responses might not contain the data object, so please be sure to edit the response in the source code as per to your response
           fs.writeFile(
             fileName,
             CircularJSON.stringify(response.data),
@@ -22,17 +23,10 @@ class APISave {
           );
         })
         .then((error) => {
-          console.log(error);
+          if (error) throw error;
         });
     } catch {
       console.log("An error occured");
     }
   }
 }
-
-console.clear();
-let prompt = ps();
-let url = prompt("Host ? ");
-let method = prompt("Method (get or post) ? ").toLowerCase();
-// Now You can Directly import save_requset method from APISave class in other files and use it
-APISave.save_request(url, method, "data.json");
