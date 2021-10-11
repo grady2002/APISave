@@ -7,13 +7,13 @@
 ## Usage
 
 - npm install
-- node index.js
+- node APISave.js
 
 <br />
 
 ## Libraries
 
 - prompt-sync : To take user input in nodejs
-- file system : To write response data into a file
+- fs : To write response data into a file
 - axios : To make requests to the API
 - circular-json : Convert circular JSON into string
