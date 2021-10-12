@@ -8,8 +8,8 @@
 
 ### Syntax
 
-<code>import { APISave } from "./APISave.js"</code />
-<code>APISave.request_save(url, method, filename)</code>
+- <code>import { APISave } from "./APISave.js"</code />
+- <code>APISave.request_save(url, method, filename)</code>
 <br />
 <img src="https://i.ibb.co/Pg17z7Z/code.png" style="margin: 20px 0" onclick="this.src"/>
 
