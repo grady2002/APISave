@@ -1,19 +1,29 @@
 {
-  "name": "prompt",
+  "name": "apisave",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library to save your API response(s)",
   "main": "APISave.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node APISave.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^0.22.0",
     "circular-json": "^0.5.9",
+    "axios": "^0.22.0",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grady2002/APISave.git"
+  },
+  "keywords": [
+    "API",
+    "save"
+  ],
+  "author": "Aatif Mastan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grady2002/APISave/issues"
+  },
+  "homepage": "https://github.com/grady2002/APISave#readme"
 }
