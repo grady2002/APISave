@@ -9,7 +9,7 @@
 ### Syntax
 
 <code>
-    import { APISave } from "./APISave.js"
+    import { APISave } from "./APISave.js" <br />
     APISave.request_save(url, method, filename)
 </code>
 <br />

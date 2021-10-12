@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A library to save your API response(s)",
   "main": "APISave.js",
+  "type": "module",
   "dependencies": {
     "circular-json": "^0.5.9",
     "axios": "^0.22.0",
