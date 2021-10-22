@@ -25,17 +25,11 @@ For example if you want to make a GET request to the Github API and save the res
 The script can be invoked with the following syntax. <br />
 
 ```
-import save from "APISave";
+import save from "apisave";
 save("https://api.github.com/", "get", "res.json")
 ```
 
 #### The script works with most of the modern Javascript frameworks
-
-<br />
-
-## Usage Example
-
-<img src="https://i.ibb.co/hf1v7q1/code.png" style="margin: 20px 0" onclick="this.src"/>
 
 <br />
 
