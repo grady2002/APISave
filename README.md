@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-npm install apisave
+npm install --save apisave
 ```
 
 <br />
